@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database backups and exports
+*.dump
+*.backup
+*.bak
+*.sql.save
+*.sql~
+*.db
+
+# Editor and temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
